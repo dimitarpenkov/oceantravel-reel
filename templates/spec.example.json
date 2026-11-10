@@ -1,0 +1,75 @@
+{
+  "_help": "Попълни всичко по references/script-guide.md. anchor = дума от vo.text, на която се сменя снимката (първото ѝ срещане след предишния anchor).",
+  "title": "Лефкада 2027 — 5 нощувки",
+  "postTitle": "Лефкада 2027 от 498 € — 5 нощувки с автобус от София",
+  "sourceUrl": "https://oceantravel.bg/product/...",
+  "brand": {
+    "primary": "#293780",
+    "secondary": "#3a5ea8",
+    "accent": "#ffba00",
+    "logo": "assets/logo.png",
+    "font": "Montserrat"
+  },
+  "vo": {
+    "text": "Мечтаеш ли за най-синята вода в Гърция? Това е Лефкада! ...",
+    "file": "assets/voice.mp3",
+    "words": "assets/words.json",
+    "offset": 0.25,
+    "speed": 1.05,
+    "voiceId": "M1ydWt7KnBCiuv4CnEDC",
+    "_voiceHelp": "Milena (реклама, ясен глас). Смени с друг от `elevenlabs.mjs voices` или махни и ползвай ELEVENLABS_VOICE_ID"
+  },
+  "captionReplacements": [
+    {
+      "spoken": "четиристотин деветдесет и осем евро",
+      "display": "498 €"
+    },
+    {
+      "spoken": "Оушън Травел",
+      "display": "Ocean Travel"
+    }
+  ],
+  "hook": {
+    "title": "ЛЕФКАДА",
+    "subtitle": "5 нощувки · от 498 €"
+  },
+  "shots": [
+    {
+      "src": "assets/photos/c1.jpg",
+      "anchor": null,
+      "motion": "in"
+    },
+    {
+      "src": "assets/photos/c5.jpg",
+      "anchor": "Плажът",
+      "label": "Порто Кацики",
+      "motion": "out"
+    },
+    {
+      "src": "assets/site/site_01.jpg",
+      "anchor": "Пет",
+      "label": "Хотел 4★",
+      "fit": "card",
+      "motion": "in"
+    },
+    {
+      "src": "assets/photos/c9.jpg",
+      "anchor": "Всичко",
+      "motion": "out"
+    }
+  ],
+  "endcard": {
+    "anchor": "Всичко",
+    "eyebrow": "ЛЕФКАДА · МАЙ–СЕПТЕМВРИ 2027",
+    "price": "от 498 €",
+    "priceNote": "на човек в двойна стая",
+    "lines": [
+      "5 нощувки · хотел 4★ · закуска и вечеря",
+      "Автобус от София · екскурзовод"
+    ],
+    "badge": "Ранно записване до 30.11",
+    "phone": "02 980 40 01",
+    "url": "oceantravel.bg"
+  },
+  "tail": 2.6
+}

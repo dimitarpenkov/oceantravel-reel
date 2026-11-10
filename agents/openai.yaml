@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ocean Travel Reel"
+  short_description: "Вертикално видео за социалните мрежи от програма на oceantravel.bg"
+  default_prompt: "Направи видео за социалните мрежи за тази програма: "
