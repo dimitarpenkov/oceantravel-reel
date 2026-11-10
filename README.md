@@ -5,9 +5,20 @@
 ## Инсталация (веднъж)
 
 1. Инсталирай **Node.js 20+** (nodejs.org), **ffmpeg** (macOS: `brew install ffmpeg`, Windows: `winget install Gyan.FFmpeg`) и **Google Chrome**.
-2. Разархивирай и пусни инсталатора:
-   - macOS: отвори Terminal в разархивираната папка и пусни `bash install.sh`
-   - Windows: отвори PowerShell в папката и пусни `powershell -ExecutionPolicy Bypass -File install.ps1`
+2. Свали skill-а и пусни инсталатора:
+   - macOS:
+     ```bash
+     git clone https://github.com/dimitarpenkov/oceantravel-reel.git
+     cd oceantravel-reel && bash install.sh
+     ```
+   - Windows (PowerShell):
+     ```powershell
+     git clone https://github.com/dimitarpenkov/oceantravel-reel.git
+     cd oceantravel-reel; powershell -ExecutionPolicy Bypass -File install.ps1
+     ```
+   Без git: в GitHub → **Code → Download ZIP**, разархивирай и пусни `install.sh` / `install.ps1` от папката.
+
+   **Обновяване:** `git pull` в същата папка и пак инсталатора. Думите, добавени в речника с ударения, се запазват.
 
    Инсталаторът:
    - копира skill-а в `~/.codex/skills/oceantravel-reel`;
